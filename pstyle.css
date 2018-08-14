@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-n  img{
+  width: 160px;
+  height: 55px;
+  margin-left: 60px;
+  }
+  nav{
+    height:80px;
+  }
+  .navbar ul{
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+  .navbar ul li a:hover{
+    text-decoration: blue underline;
+  }
+
+
+  #rotate{
+    position: fixed;
+    top: 230px;
+    right: -60px;
+    width:160px;height:35px;
+    transform:rotate(270deg);
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */}
+      
+  
+  input{
+    cursor:pointer;
+    min-height:30px;
+    position:relative;
+    border-radius: 8px;
+    padding: 4px 8px;margin-right:0px;
+      
+    font-size:12px;
+    font-variant:small-caps;
+    color: #fff;
+    text-shadow: 0 0 0;
+    outline: 0;
+    background:#0197DB
+  }
+  
+  input:hover{box-shadow:0px 0px 4px #fff;}
+  input:active{top:1px;}
+
+   /* footer */
+
+   #footer1{
+    min-width: 100%;
+    min-height:100px;
+    background-color:#0197DB;
+    margin-top: 0px;
+    margin-bottom: -30px;
+  }
+  #footer1  h5{
+    margin-top: 40px;
+    color: #fff
+  }
+  #footer1 a{
+    text-decoration: none;
+  }
+
+.ficon{
+  margin-top: 45px;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 0;
+  width:20px;
+  height: 20px;
+  padding: 0;
+  color: black
+}
+
+/* portfolio */
+.gimg{
+ width: 100%;
+ min-height: 100%;
+ overflow: visible
+}
+.row{
+    margin-top: 40px;
+    max-height: 500px;
+}
+.pbtn{
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.pbtn a{
+    text-decoration: none;
+    color: white;
+}
+.container6 {
+  position: relative;
+  width: 100%;
+}
+
+gimg1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 1s ease;
+}
+
+.container6:hover .overlay {
+  opacity: 0.5;
+  transform: scale(1);
+}
+
+.text {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+

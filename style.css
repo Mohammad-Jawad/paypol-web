@@ -1,0 +1,114 @@
+
+/* navbara */
+
+
+.container-n  img{
+width: 160px;
+height: 55px;
+margin-left: 60px;
+}
+.navbar{
+  height:80px;
+}
+.navbar ul{
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.navbar ul li a:hover{
+  text-decoration: blue underline;
+}
+
+/* body */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/Cloud1.png");
+  background-repeat: no-repeat;
+  /* background-size: 1000px 570px; */
+  background-position-x: 600px;
+  background-position-y: -390px;
+}
+.bgcloud{
+  background-image: url("images/Cloud.png");
+  background-repeat: no-repeat;
+  background-size: 930px 530px;
+  background-position-x: -140px;
+  background-position-y: -20px;
+}
+/* side button */
+#rotate{
+    position: fixed;
+    top: 230px;
+    right: -60px;
+    width:160px;height:35px;
+    transform:rotate(270deg);
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */}
+      
+  
+  input{
+    cursor:pointer;
+    min-height:30px;
+    position:relative;
+    border-radius: 8px;
+    padding: 4px 8px;margin-right:0px;
+      
+    font-size:12px;
+    font-variant:small-caps;
+    color: #fff;
+    text-shadow: 0 0 0;
+    outline: 0;
+    background:#0197DB
+  }
+  
+  input:hover{box-shadow:0px 0px 4px #fff;}
+  input:active{top:1px;}
+  
+
+  /* Team */
+
+  #team-container{
+    min-width: 100%;
+    min-height:660px;
+    background-color:#0197DB;
+    margin-bottom:-30px;
+    animation: cchange 4s infinite;
+  }
+  @keyframes cchange{
+    0%{background-color: #0197DB;}
+    25%{background-color: rgb(99, 101, 211);}
+    50%{background-color: rgb(106, 83, 172);}
+    0%{background-color: #0197DB;}
+  }
+
+  /* footer */
+
+  #footer1{
+    min-width: 100%;
+    min-height:100px;
+    background-color:#0197DB;
+    margin-top: 0px;
+  }
+  #footer1  h5{
+    margin-top: 40px;
+    color: #fff
+  }
+  #footer1 a{
+    text-decoration: none;
+  }
+
+  .ficon{
+    margin-top: 45px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 0;
+    width:20px;
+    height: 20px;
+    padding: 0;
+    color: black
+  }

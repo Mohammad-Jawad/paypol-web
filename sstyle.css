@@ -1,0 +1,148 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/Cloud1.png");
+    background-repeat: no-repeat;
+    /* background-size: 1000px 570px; */
+    background-position-x: 600px;
+    background-position-y: -390px;
+  }
+  
+  /* navbar */
+  .container-n  img{
+    width: 160px;
+    height: 55px;
+    margin-left: 60px;
+    }
+    nav{
+      height:80px;
+    }
+    .navbar ul{
+      margin-top: 15px;
+      margin-right: 50px;
+    }
+    .navbar ul li a:hover{
+      text-decoration: blue underline;
+    }
+ 
+
+  #rotate{
+    position: fixed;
+    top: 230px;
+    right: -60px;
+    width:160px;height:35px;
+    transform:rotate(270deg);
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */}
+      
+  
+  input{
+    cursor:pointer;
+    min-height:30px;
+    position:relative;
+    border-radius: 8px;
+    padding: 4px 8px;margin-right:0px;
+      
+    font-size:12px;
+    font-variant:small-caps;
+    color: #fff;
+    text-shadow: 0 0 0;
+    outline: 0;
+    background:#0197DB
+  }
+  
+  input:hover{box-shadow:0px 0px 4px #fff;}
+  input:active{top:1px;}
+
+   /* footer */
+
+   #footer1{
+    min-width: 100%;
+    min-height:100px;
+    background-color:#0197DB;
+    margin-top: 100px;
+    margin-bottom: -30px;
+  }
+  #footer1  h5{
+    margin-top: 40px;
+    color: #fff
+  }
+  #footer1 a{
+    text-decoration: none;
+  }
+
+.ficon{
+  margin-top: 45px;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 0;
+  width:20px;
+  height: 20px;
+  padding: 0;
+  color: black
+}
+
+
+/* services */
+.txt{
+    color: #707070;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.cimg img{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 100px;
+}
+.box{
+    background-color: #fff;
+    box-shadow: 8px 8px 8px 8px rgba(58, 68, 68, 0.219);
+    margin-top: 150px;
+    width:100%;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #0197DB
+}
+.btn{
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 0%;
+    margin-top: 50px;
+}
+.pbtn{
+    border: 1px solid blue;
+    width:100%;
+    margin-top: 190px;
+}
+.pbtn a{
+    text-decoration: none;
+    color: white;
+}
+.list li {
+    list-style: disc blue;
+}
+#bgblue{
+    background-image: url("images/blue.jpg") ;
+    background-repeat: no-repeat;
+    background-position-y: 60%; 
+    background-size: 100% 35%;
+    position:relative;
+}
+#cloud{
+    /* background-image: url("images/cloud1.png"); */
+    background-repeat: no-repeat;
+    background-size: 650px 500px;
+    opacity: 0.7;
+    background-color: none;
+}
+.marg{
+    margin-left: 150px;
+}
